@@ -83,6 +83,20 @@
       "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 12
+    },
+    {
+      "titulo": "Como aprender melhor? Com Diogo Pires",
+      "descricao": "820 mil visualizações",
+      "url": "https://www.youtube.com/embed/uOagLB3uyeU?si=eN40sSKuqlJpVRd9",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 12
+    },
+    {
+      "id": "0173",
+      "titulo": "Orientação a objetos com Roberta Arcoverde",
+      "descricao": "6 mil visualizações",
+      "url": "https://www.youtube.com/embed/jpuJ1qrluoU?si=qcWdZUOLWarQNqxJ",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg"
     }
   ]
 }
