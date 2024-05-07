@@ -10,11 +10,14 @@ async function criarVideo(evento) {
     const url = document.querySelector("[data-url]").value;
     const titulo = document.querySelector("[data-titulo]").value;
     const descricao = Math.floor(Math.random() * 10).toString();
+    try {
+        await conectaApi.criaVideo(titulo, descricao, url, imagem);
 
-    await conectaApi.criaVideo(titulo, descricao, url, imagem);
-
-    //redireciona a página caso o envio seja efetuado com sucesso
-    window.location.href = "../pages/envio-concluido.html";
+        //redireciona a página caso o envio seja efetuado com sucesso
+        window.location.href = "../pages/envio-concluido.html";
+    } catch (e) {
+        alert(e);
+    }         
 }
 
 //o formulário só será enviado ao clicar no botão submit
